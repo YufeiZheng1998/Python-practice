@@ -13,5 +13,6 @@ def addBinary(a,b):
         j-=1
     if extra == 1:
         result += '1'
+
     return result[::-1]
 
