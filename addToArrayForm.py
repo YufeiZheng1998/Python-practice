@@ -5,6 +5,7 @@ def addToArrayForm(A, K):
                 A[i] = K % 10
                 K = K // 10
                 i = i - 1
+
         while K != 0:
                 A.insert(0,K % 10)
                 K  = K // 10
