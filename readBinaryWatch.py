@@ -14,3 +14,4 @@ def readBinaryWatch(num):
             if count(i) + count(j) == num:
                 result.append(str(i)+':'+('0'+str(j) if j<10 else str(j)))
     return result
+print(readBinaryWatch(1))
